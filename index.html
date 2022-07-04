@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article preview component</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+  <main class="main">
+    <article>
+      <div class="article__img">
+      </div>
+      <section class="article__content">
+        <div class="texts">
+          <h1 class="article__title">
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home
+          </h1>
+          <p class="article__paragraph">
+            Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.
+          </p>
+        </div>
+      
+      </section>
+      <footer class="article__footer">
+        <div class="footer-hover">
+          <h4>share</h4>
+          <div class="icons">
+            <img src="images/icon-facebook.svg">
+            <img src="images/icon-twitter.svg">
+            <img src="images/icon-pinterest.svg" alt="">
+          </div> 
+          <div class="btn">
+            <i class="fas fa-share"></i>
+          </div>       
+        </div>
+        <div class="footer-principal">
+          <img src="images/avatar-michelle.jpg">
+          <div class="texts">
+            <h4>Michelle Apleton</h4>
+            <p>28 Jun 2020</p>
+          </div>
+          <div class="btn" onclick="shared()">
+            <i class="fas fas-2 fa-share"></i>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>  
+  <script src="./js/index.js"></script>
+</body>
+</html>
